@@ -47,11 +47,11 @@ uint64_t sumPrime(uint64_t hbound) {
         sum += i;
     }
   }
-  return sum;  
+  return sum;
 }
 
 uint64_t twinPrimes(uint64_t lbound, uint64_t hbound) {
-  if (hbound < 5) return 0; 
+  if (hbound < 5) return 0;
   uint64_t cnt = 0;
 
   for (uint64_t i = lbound; i + 2 < hbound; i++) {
